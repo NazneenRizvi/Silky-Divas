@@ -1,0 +1,6 @@
+{
+  "name": "Silky Divas Beauty Salon",
+  "description": "Silky Divas Beauty Salon in Deira Al Rigga, Dubai. 22 signature beauty & hair services including African braids, Ghana lines, acrylic nails, keratin, facials and massage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

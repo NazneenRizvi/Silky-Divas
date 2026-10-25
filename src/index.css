@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-purple: #4A0E6A;
+    --brand-bg: #FBF5FF;
+    --brand-text: #1A0A2E;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FBF5FF;
+    color: #1A0A2E;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom smooth luxury utility styling */
+.luxury-card {
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 10px 30px -10px rgba(74, 14, 106, 0.08), 0 2px 8px -2px rgba(74, 14, 106, 0.04);
+  border: 1px solid rgba(74, 14, 106, 0.06);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -10px rgba(74, 14, 106, 0.14), 0 4px 12px -2px rgba(74, 14, 106, 0.06);
+  border-color: rgba(74, 14, 106, 0.16);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FBF5FF;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8B4FE;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A855F7;
+}
